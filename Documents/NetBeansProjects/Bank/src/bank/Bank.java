@@ -18,7 +18,7 @@ package bank;
 		Scanner input = new Scanner(System.in);
 		double data;
 		NumberFormat money = NumberFormat.getCurrencyInstance();
-		
+		munozAccount.changeAddress("87 Neeve St", "Guelph", "Ontario", "N1E6Z5");
 		System.out.println(munozAccount);
 		
 		System.out.print("Enter deposit amount: ");

@@ -34,6 +34,12 @@ public class Account {
 	public double getBalance() {
 	 	return(balance);
 	}
+        public void changeAddress(String str1,String city1,String pr1,String pc1){
+            cust.changeCity(city1);
+            cust.changePostalCode(pc1);
+            cust.changeProvince(pr1);
+            cust.changeStreet(str1);
+        }
 
 
 	/** 

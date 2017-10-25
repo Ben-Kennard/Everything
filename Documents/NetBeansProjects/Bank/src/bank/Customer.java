@@ -26,7 +26,22 @@ public class Customer {
 		province = s;
 		postalCode = z;
 	}
-	
+        public void changeStreet(String tempStreet){
+           street = tempStreet;
+            
+        }
+        public void changeCity(String tempCity){
+           city = tempCity;
+            
+        }
+	public void changeProvince(String tempProvince){
+            province = tempProvince;
+          
+        }
+        public void changePostalCode(String tempPostalCode){
+            postalCode = tempPostalCode;
+            
+        }
 
 	/**
 	 * Returns a String that represents the Customer object.
@@ -42,4 +57,5 @@ public class Customer {
 		custString += city + ", " + province + "  " + postalCode + "\n";
 	 	return(custString);
 	}
+         
 }
