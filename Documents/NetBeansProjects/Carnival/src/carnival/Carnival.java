@@ -30,12 +30,10 @@ package carnival;
 		System.out.println("Shonda won: " + shonda.showPrizes());
 		System.out.println("Luis won: " + luis.showPrizes());
                 
-                System.out.println("Prizes awarded at balloon dart toss" + "\n");
-                System.out.println(balloonDartToss.prizesAwarded());
-               System.out.println("Prizes awarded at ring toss" + "\n");
-                System.out.println(ringToss.prizesAwarded());
-                System.out.println("Prizes awarded at break a plate" + "\n");
-                System.out.println(breakAPlate.prizesAwarded());
+                
+                System.out.println(balloonDartToss.prizesAwarded("balloon dart toss"));
+                System.out.println(ringToss.prizesAwarded("ring toss"));
+                System.out.println(breakAPlate.prizesAwarded("break a plate"));
                 System.out.println(shonda.toString());
                 System.out.println(luis.toString());
         }

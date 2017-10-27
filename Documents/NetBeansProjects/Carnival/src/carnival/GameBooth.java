@@ -65,9 +65,9 @@ public class GameBooth {
 	public double getCost() {
 	 	return(cost);
 	}
-        public String prizesAwarded(){
+        public String prizesAwarded(String name){
             String output;
-            output = firstPrizeTracker + " first prizes have been awarded" + "\n" + conslationPrizeTracker + "consolation prizes have been awarded";
+            output = "prizes awardrd at "+ name +"\n" +firstPrizeTracker + " first prizes have been awarded" + "\n" + conslationPrizeTracker + "consolation prizes have been awarded";
             return(output);
         }
 
