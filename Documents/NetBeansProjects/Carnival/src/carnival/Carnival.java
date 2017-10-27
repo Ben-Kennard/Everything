@@ -38,5 +38,5 @@ package carnival;
                 System.out.println(breakAPlate.prizesAwarded());
                 System.out.println(shonda.toString());
                 System.out.println(luis.toString());
-	}
+        }
 }
