@@ -53,8 +53,8 @@ public class Player {
 	}
         /**
          * returns the info about the player
-        specifically returns the spending money and prizes won
-        * */
+         *specifically returns the spending money and prizes won
+        **/
         public String toString(){
             String playerInfo;
             playerInfo = "This is how much money you have left "+spendingMoney + "\n" + " This is the prizes you have won "+ prizesWon ;
