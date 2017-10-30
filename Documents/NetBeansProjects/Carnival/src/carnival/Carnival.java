@@ -34,7 +34,7 @@ package carnival;
                 System.out.println(balloonDartToss.prizesAwarded("balloon dart toss"));
                 System.out.println(ringToss.prizesAwarded("ring toss"));
                 System.out.println(breakAPlate.prizesAwarded("break a plate"));
-                System.out.println(shonda.toString());
-                System.out.println(luis.toString());
+                System.out.println(shonda);
+                System.out.println(luis);
         }
 }
