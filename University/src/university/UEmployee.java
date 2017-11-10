@@ -13,11 +13,15 @@ package university;
 public abstract class UEmployee {
     private String employeeName;
     private double employeeSalary;
+    /**
+    Constructor
+    */
     UEmployee(String tempEmployeeName, int tempEmployeeSalary){
         employeeName = tempEmployeeName;
         employeeSalary = tempEmployeeSalary;
     }
     
+    //This is used in all classes so that they have to have a toString
     public abstract String toString();
         
     
